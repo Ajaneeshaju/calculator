@@ -10,6 +10,6 @@ function  evaluateExpression(){
     result.value=eval(result.value)
 }
 
-function slice(){
-    result.value=slice(result[1])
+function deletenum(){
+    result.value=result.value.slice(0,-1)
 }
